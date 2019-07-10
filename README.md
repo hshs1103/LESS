@@ -1,7 +1,25 @@
-This README is just a fast *quick start* document. You can find more detailed documentation at [redis.io](https://redis.io).
-
-LESS:Logging Exploiting SnapShot
+LESS: Logging Exploiting SnapShot
 --------------------------------
+A new persistence method that mixture of AOF and RDB.
+
+Running Redis with  LESS method
+--------------------------------
+If you want to run Redis with the LESS method, change the redis.conf file:
+
+    appendonly yes
+
+    aofmode with_rdb
+    #rdb_only : RDB only mode
+    #aof_only : AOF only mode
+    #with_rdb : LESS mode
+
+
+Publications
+--------------------------------
+Hanseung Sung, Minhwa Jin, Mincheol Shan, Hongchan Roh, Wongi Choi, Sanghyun Park, **LESS: Logging Exploiting Snapshot**, IEEE International Conference on Big Data and Smart Computing (BigComp), pp. 1-4, 2019
+
+
+This README is just a fast *quick start* document. You can find more detailed documentation at [redis.io](https://redis.io).
 
 
 What is Redis?
