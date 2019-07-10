@@ -18,6 +18,7 @@ Publications
 --------------------------------
 Hanseung Sung, Minhwa Jin, Mincheol Shan, Hongchan Roh, Wongi Choi, Sanghyun Park, **LESS: Logging Exploiting Snapshot**, IEEE International Conference on Big Data and Smart Computing (BigComp), pp. 1-4, 2019
 
+-------------------------------------------------------------
 
 This README is just a fast *quick start* document. You can find more detailed documentation at [redis.io](https://redis.io).
 
